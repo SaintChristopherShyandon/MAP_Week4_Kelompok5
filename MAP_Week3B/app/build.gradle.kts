@@ -37,14 +37,14 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
+    implementation(libs.androidx.core.ktx.v190)
+    implementation(libs.androidx.appcompat.v161)
+    implementation(libs.material.v190)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.navigation.runtime.ktx)
-    implementation(libs.androidx.navigation.fragment)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.junit.v115)
+    androidTestImplementation(libs.androidx.espresso.core.v351)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.viewpager2)
 }
